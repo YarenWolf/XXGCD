@@ -4,7 +4,7 @@
 //
 //  Created by tomxiang on 5/24/16.
 //  Copyright © 2016 tomxiang. All rights reserved.
-//
+//  执行某段代码n次
 
 #import "XXGCDApply.h"
 
