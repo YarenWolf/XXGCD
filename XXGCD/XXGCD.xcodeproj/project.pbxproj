@@ -16,6 +16,7 @@
 		9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E3681CF3EC1C00F11577 /* XXGCDSemaphore.m */; };
 		9A38E36C1CF3F0CA00F11577 /* XXEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E36B1CF3F0CA00F11577 /* XXEngine.m */; };
 		9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A76251CF432600004EF94 /* XXGCDGroup.m */; };
+		9A9A762C1CF47EF60004EF94 /* XXGCDApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9A38E36B1CF3F0CA00F11577 /* XXEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXEngine.m; sourceTree = "<group>"; };
 		9A9A76241CF432600004EF94 /* XXGCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDGroup.h; sourceTree = "<group>"; };
 		9A9A76251CF432600004EF94 /* XXGCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDGroup.m; sourceTree = "<group>"; };
+		9A9A762A1CF47EF60004EF94 /* XXGCDApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDApply.h; sourceTree = "<group>"; };
+		9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDApply.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				9A38E36B1CF3F0CA00F11577 /* XXEngine.m */,
 				9A9A76241CF432600004EF94 /* XXGCDGroup.h */,
 				9A9A76251CF432600004EF94 /* XXGCDGroup.m */,
+				9A9A762A1CF47EF60004EF94 /* XXGCDApply.h */,
+				9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				9A38E36C1CF3F0CA00F11577 /* XXEngine.m in Sources */,
 				9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */,
 				9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */,
+				9A9A762C1CF47EF60004EF94 /* XXGCDApply.m in Sources */,
 				9A38E3541CF3EB8F00F11577 /* AppDelegate.m in Sources */,
 				9A38E3511CF3EB8F00F11577 /* main.m in Sources */,
 			);

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "XXGCDSemaphore.h"
 #import "XXGCDGroup.h"
+#import "XXGCDApply.h"
 
 @interface ViewController ()
 
@@ -24,10 +25,14 @@
 //    [gcdSemaphore testProductAndConsumer];
     
     
-    XXGCDGroup *gcdGroup = [XXGCDGroup new];
+//    XXGCDGroup *gcdGroup = [XXGCDGroup new];
 //    [gcdGroup testGCDGroup];
 //    [gcdGroup testGCDGroup2];
-    [gcdGroup testGCDGroup3];
+//    [gcdGroup testGCDGroup3];
+    
+    XXGCDApply *gcdApply = [[XXGCDApply alloc] init];
+    [gcdApply testGCDApply];
+    
 }
 
 - (void)didReceiveMemoryWarning {
