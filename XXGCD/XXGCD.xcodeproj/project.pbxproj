@@ -15,6 +15,7 @@
 		9A38E35F1CF3EB8F00F11577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A38E35D1CF3EB8F00F11577 /* LaunchScreen.storyboard */; };
 		9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E3681CF3EC1C00F11577 /* XXGCDSemaphore.m */; };
 		9A38E36C1CF3F0CA00F11577 /* XXEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E36B1CF3F0CA00F11577 /* XXEngine.m */; };
+		9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A76251CF432600004EF94 /* XXGCDGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		9A38E3681CF3EC1C00F11577 /* XXGCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDSemaphore.m; sourceTree = "<group>"; };
 		9A38E36A1CF3F0CA00F11577 /* XXEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXEngine.h; sourceTree = "<group>"; };
 		9A38E36B1CF3F0CA00F11577 /* XXEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXEngine.m; sourceTree = "<group>"; };
+		9A9A76241CF432600004EF94 /* XXGCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDGroup.h; sourceTree = "<group>"; };
+		9A9A76251CF432600004EF94 /* XXGCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				9A38E3681CF3EC1C00F11577 /* XXGCDSemaphore.m */,
 				9A38E36A1CF3F0CA00F11577 /* XXEngine.h */,
 				9A38E36B1CF3F0CA00F11577 /* XXEngine.m */,
+				9A9A76241CF432600004EF94 /* XXGCDGroup.h */,
+				9A9A76251CF432600004EF94 /* XXGCDGroup.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				9A38E3571CF3EB8F00F11577 /* ViewController.m in Sources */,
 				9A38E36C1CF3F0CA00F11577 /* XXEngine.m in Sources */,
+				9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */,
 				9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */,
 				9A38E3541CF3EB8F00F11577 /* AppDelegate.m in Sources */,
 				9A38E3511CF3EB8F00F11577 /* main.m in Sources */,
@@ -322,6 +328,7 @@
 				9A38E3651CF3EB8F00F11577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

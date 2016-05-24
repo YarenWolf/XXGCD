@@ -10,7 +10,11 @@
 
 @interface XXEngine : NSObject
 
++(instancetype) instance;
+
 -(void) queryCompletion:(void (^)(BOOL isOpen)) successBlock
                 onError:(void (^)(BOOL isOpen,int errorCode)) errorBlock;
+
+-(void) doAsyncWorkWithCompletionBlock:(void (^)()) successBlock;
 
 @end

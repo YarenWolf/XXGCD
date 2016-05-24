@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "XXGCDSemaphore.h"
+#import "XXGCDGroup.h"
 
 @interface ViewController ()
 
@@ -18,9 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    XXGCDSemaphore *gcdSemaphore = [XXGCDSemaphore new];
-    [gcdSemaphore testSemaphore];
+//    XXGCDSemaphore *gcdSemaphore = [XXGCDSemaphore new];
+//    [gcdSemaphore testSemaphore];
 //    [gcdSemaphore testProductAndConsumer];
+    
+    
+    XXGCDGroup *gcdGroup = [XXGCDGroup new];
+//    [gcdGroup testGCDGroup];
+//    [gcdGroup testGCDGroup2];
+    [gcdGroup testGCDGroup3];
 }
 
 - (void)didReceiveMemoryWarning {
