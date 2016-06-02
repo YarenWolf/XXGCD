@@ -11,6 +11,8 @@
 #import "XXGCDGroup.h"
 #import "XXGCDApply.h"
 #import "XXGCDTimer.h"
+#import "XXGCDSync.h"
+#import "XXGCDGlobal.h"
 
 @interface ViewController ()
 {
@@ -24,7 +26,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    [self testSemaphore];
-    [self testGCDTimer];
+//    [self testSYNC];
+//    [self testGroup];
+//    [self testApply];
+//    [self testGCDTimer];
+//    [self testSYNC];
+    
+    [self testGlobal];
 }
 
 -(void) testSemaphore {
@@ -50,6 +58,20 @@
     gcdTimer = [XXGCDTimer new];
     [gcdTimer startGCDTimer];
 }
+
+-(void) testSYNC{
+    XXGCDSync *sync = [[XXGCDSync alloc] init];
+//    [sync startSYNC];
+    [sync testSYNC2];
+//    [sync startASYNC];
+}
+
+-(void) testGlobal{
+    XXGCDGlobal *global = [XXGCDGlobal new];
+    [global test];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -18,6 +18,8 @@
 		9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A76251CF432600004EF94 /* XXGCDGroup.m */; };
 		9A9A762C1CF47EF60004EF94 /* XXGCDApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */; };
 		9A9A76371CF4837D0004EF94 /* XXGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A76361CF4837D0004EF94 /* XXGCDTimer.m */; };
+		9AC1B15D1D00504F00595397 /* XXGCDSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1B15C1D00504F00595397 /* XXGCDSync.m */; };
+		9AC1B1601D00558A00595397 /* XXGCDGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1B15F1D00558A00595397 /* XXGCDGlobal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDApply.m; sourceTree = "<group>"; };
 		9A9A76351CF4837D0004EF94 /* XXGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDTimer.h; sourceTree = "<group>"; };
 		9A9A76361CF4837D0004EF94 /* XXGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDTimer.m; sourceTree = "<group>"; };
+		9AC1B15B1D00504F00595397 /* XXGCDSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDSync.h; sourceTree = "<group>"; };
+		9AC1B15C1D00504F00595397 /* XXGCDSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDSync.m; sourceTree = "<group>"; };
+		9AC1B15E1D00558A00595397 /* XXGCDGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDGlobal.h; sourceTree = "<group>"; };
+		9AC1B15F1D00558A00595397 /* XXGCDGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDGlobal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				9A9A762B1CF47EF60004EF94 /* XXGCDApply.m */,
 				9A9A76351CF4837D0004EF94 /* XXGCDTimer.h */,
 				9A9A76361CF4837D0004EF94 /* XXGCDTimer.m */,
+				9AC1B15B1D00504F00595397 /* XXGCDSync.h */,
+				9AC1B15C1D00504F00595397 /* XXGCDSync.m */,
+				9AC1B15E1D00558A00595397 /* XXGCDGlobal.h */,
+				9AC1B15F1D00558A00595397 /* XXGCDGlobal.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A38E3571CF3EB8F00F11577 /* ViewController.m in Sources */,
+				9AC1B1601D00558A00595397 /* XXGCDGlobal.m in Sources */,
+				9AC1B15D1D00504F00595397 /* XXGCDSync.m in Sources */,
 				9A38E36C1CF3F0CA00F11577 /* XXEngine.m in Sources */,
 				9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */,
 				9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */,
