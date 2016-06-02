@@ -13,7 +13,7 @@
 
 -(void) testGCDGroup{
     dispatch_group_t group = dispatch_group_create();
-    for(int i = 0; i < 100; i++)
+    for(int i = 0; i < 10; i++)
     {
         dispatch_group_enter(group);
         [[XXEngine instance] doAsyncWorkWithCompletionBlock:^{
@@ -28,7 +28,7 @@
 //当这些并行操作完成的时候，还可以使用它来异步调用一个block。
 -(void) testGCDGroup2{
     dispatch_group_t group = dispatch_group_create();
-    for(int i = 0; i < 100; i++)
+    for(int i = 0; i < 10; i++)
     {
         dispatch_group_enter(group);
         [[XXEngine instance] doAsyncWorkWithCompletionBlock:^{

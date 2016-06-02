@@ -57,7 +57,7 @@
     dispatch_semaphore_t sema = dispatch_semaphore_create(0);
     
     XXEngine *engine = [[XXEngine alloc] init];
-    [engine queryCompletion:^(BOOL isOpen) {
+    [engine queryCompletion:^(BOOL isOpen) {//sleep了3秒
         isok = isOpen;
         dispatch_semaphore_signal(sema);
         NSLog(@"success!");
@@ -72,7 +72,8 @@
 }
 
 /**
- *  执行场景3:生产者，消费者    生产者持续生产蛋糕，做完消费者立马拿
+ *  执行场景3:生产者，消费者    
+ *  生产者持续生产蛋糕，做完消费者立马拿
  */
 -(void) testProductAndConsumer{
     
@@ -104,9 +105,6 @@
             }
         }
     });
-    
-
-    
 }
 
 @end

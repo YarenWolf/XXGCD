@@ -10,16 +10,18 @@
 
 @implementation XXGCDApply
 
+static int i = 0;
+
 -(void) testGCDApply{
     dispatch_queue_t globalQ = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_apply(20, globalQ, ^(size_t index) {
-        // 执行5次
+    dispatch_apply(10, globalQ, ^(size_t index) {
+        // 执行10次
         [self printTest];
     });
 }
 
 -(void) printTest{
-    NSLog(@"xiangchenyu %s",__func__);
+    NSLog(@"%d",++i);
 }
 
 @end

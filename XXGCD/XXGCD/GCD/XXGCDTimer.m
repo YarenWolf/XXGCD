@@ -39,7 +39,6 @@
     });
     
     dispatch_resume(_timer);
-    
 }
 
 -(void) pauseTimer{

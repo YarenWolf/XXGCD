@@ -13,7 +13,9 @@
 #import "XXGCDTimer.h"
 
 @interface ViewController ()
-
+{
+    XXGCDTimer *gcdTimer;
+}
 @end
 
 @implementation ViewController
@@ -21,24 +23,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    [self testSemaphore];
+    [self testGCDTimer];
 }
 
 -(void) testSemaphore {
     XXGCDSemaphore *gcdSemaphore = [XXGCDSemaphore new];
     [gcdSemaphore testSemaphore];
-    [gcdSemaphore testProductAndConsumer];
+//    [gcdSemaphore testAsynFinished];
+//    [gcdSemaphore testProductAndConsumer];
 }
 
 -(void) testGroup{
     XXGCDGroup *gcdGroup = [XXGCDGroup new];
-    [gcdGroup testGCDGroup];
-    [gcdGroup testGCDGroup2];
+//    [gcdGroup testGCDGroup];
+//    [gcdGroup testGCDGroup2];
     [gcdGroup testGCDGroup3];
 }
 
 -(void) testApply{
     XXGCDApply *gcdApply = [[XXGCDApply alloc] init];
     [gcdApply testGCDApply];
+}
+
+-(void) testGCDTimer{
+    gcdTimer = [XXGCDTimer new];
+    [gcdTimer startGCDTimer];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -28,7 +28,7 @@
 
 -(void) doAsyncWorkWithCompletionBlock:(void (^)()) successBlock{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"%s",__func__);
+        NSLog(@"test");
         [NSThread sleepForTimeInterval:2.f];
         successBlock();
     });
