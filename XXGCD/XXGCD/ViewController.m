@@ -13,6 +13,7 @@
 #import "XXGCDTimer.h"
 #import "XXGCDSync.h"
 #import "XXGCDGlobal.h"
+#import "XXGCDSpecific.h"
 
 @interface ViewController ()
 {
@@ -31,8 +32,9 @@
 //    [self testApply];
 //    [self testGCDTimer];
 //    [self testSYNC];
+//    [self testGlobal];
     
-    [self testGlobal];
+    [self testSpecfic];
 }
 
 -(void) testSemaphore {
@@ -71,7 +73,11 @@
     [global test];
 }
 
-
+-(void) testSpecfic{
+    XXGCDSpecific *spec = [XXGCDSpecific new];
+//    [spec startAsyncSpecific];
+    [spec startSyncSpecific];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

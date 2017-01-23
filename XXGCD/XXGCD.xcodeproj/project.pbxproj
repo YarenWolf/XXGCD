@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0625311E35B05400E7437C /* XXGCDSpecific.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0625301E35B05400E7437C /* XXGCDSpecific.m */; };
 		9A38E3511CF3EB8F00F11577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E3501CF3EB8F00F11577 /* main.m */; };
 		9A38E3541CF3EB8F00F11577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E3531CF3EB8F00F11577 /* AppDelegate.m */; };
 		9A38E3571CF3EB8F00F11577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A38E3561CF3EB8F00F11577 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B06252F1E35B05400E7437C /* XXGCDSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGCDSpecific.h; sourceTree = "<group>"; };
+		4B0625301E35B05400E7437C /* XXGCDSpecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGCDSpecific.m; sourceTree = "<group>"; };
 		9A38E34C1CF3EB8F00F11577 /* XXGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A38E3501CF3EB8F00F11577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A38E3521CF3EB8F00F11577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				9AC1B15C1D00504F00595397 /* XXGCDSync.m */,
 				9AC1B15E1D00558A00595397 /* XXGCDGlobal.h */,
 				9AC1B15F1D00558A00595397 /* XXGCDGlobal.m */,
+				4B06252F1E35B05400E7437C /* XXGCDSpecific.h */,
+				4B0625301E35B05400E7437C /* XXGCDSpecific.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				9A9A76261CF432600004EF94 /* XXGCDGroup.m in Sources */,
 				9A38E3691CF3EC1C00F11577 /* XXGCDSemaphore.m in Sources */,
 				9A9A762C1CF47EF60004EF94 /* XXGCDApply.m in Sources */,
+				4B0625311E35B05400E7437C /* XXGCDSpecific.m in Sources */,
 				9A38E3541CF3EB8F00F11577 /* AppDelegate.m in Sources */,
 				9A9A76371CF4837D0004EF94 /* XXGCDTimer.m in Sources */,
 				9A38E3511CF3EB8F00F11577 /* main.m in Sources */,
